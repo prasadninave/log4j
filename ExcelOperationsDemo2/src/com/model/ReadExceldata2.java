@@ -21,7 +21,7 @@ public class ReadExceldata2 {
 		//int arrayexceldata[][]= null;
 		
 		FileInputStream fis= new FileInputStream(file);
-		System.out.println("dfggfgd");
+	
 		XSSFWorkbook wb= new XSSFWorkbook(fis);
 		XSSFSheet sheet= wb.getSheet(sheetname);
 		XSSFRow row= sheet.getRow(3);
